@@ -7,7 +7,7 @@ const path = require('path');
 
 mongoose
   .connect(
-    "mongodb+srv://Ichem30:Khaltek30.@clusteri30.54rzhir.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://******:******.@clusteri30.54rzhir.mongodb.net/?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connexion à MongoDB réussie !"))
